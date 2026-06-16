@@ -2,11 +2,11 @@
 
 ### Set up substitutions for dynamic values
 substitutions:
-  _PROJECT_ID: <your-project-id> 
-  _REGION: <your-region> 
+  _PROJECT_ID: qwiklabs-gcp-01-685584958cde
+  _REGION: us-west1
   _SERVICE_NAME: inventory-api
   _REPOSITORY: cloud-run-source-deploy
-  _IMAGE_NAME: ${_REGION}-docker.pkg.dev/${_PROJECT_ID}/${_REPOSITORY}/${_SERVICE_NAME}
+  _IMAGE_NAME: us-west1-docker.pkg.dev/qwiklabs-gcp-01-685584958cde/inventory-app-git-link/chat
 
 steps:
   ### Step 1: Build the Docker image
